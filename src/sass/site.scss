@@ -1,0 +1,407 @@
+
+* {
+  font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition:    all 0.3s ease;
+  -ms-transition:     all 0.3s ease;
+  -o-transition:      all 0.3s ease;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+.polly-Header {
+  text-transform: uppercase;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}
+.polly-Button {
+  font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  height: 35px;
+  line-height: 35px;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: .03em;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  padding: 0 14px;
+  color: #666;
+}
+::selection { // keep this separate from below
+  background: #FF4F19;
+  color: #fff;
+}
+::-moz-selection { // keep this separate from above
+  background: #FF4F19;
+  color: #fff;
+}
+
+main {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+.avatar {
+  margin: auto;
+  img {
+    border-radius: 50%;
+  }
+}
+
+.MainMenu {
+  z-index: 99;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+
+  &-Products {
+    .product-icon {
+      max-height: 128px;
+      // box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+    .media-content {
+      margin: auto 0;
+    }
+  }
+}
+.card {
+  border-radius: 4px;
+
+  .content {
+    font-size: 0.8rem;
+  }
+
+  .card-footer-item {
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 13px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #666;
+  }
+}
+
+.PollyMember {
+  figure {
+    margin-bottom: 20px;
+  }
+}
+.ProductCard {
+  .title {
+    margin-bottom: 5px;
+  }
+  .content {
+    color: #333;
+  }
+  figure {
+    margin: 0 auto;
+    padding-top: 12px;
+  }
+  &:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  }
+}
+
+.section-header {
+  padding-bottom: 20px;
+}
+
+.has-horizontal-scroll {
+  position: relative;
+  margin: 50px 0;
+
+  .level {
+    margin-left: 0.75rem;
+  }
+}
+.scrolling-wrapper-flexbox {
+  padding: 10px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: visible;
+  overflow-x: auto;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .feature-card {
+    z-index: 9;
+    background: white;
+    flex: 0 0 auto;
+    padding: 30px 16px;
+    margin-right: 2%;
+    border: 1px solid white;
+    width: 23.5%;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #dedede;
+    box-shadow: 0px 0px 8px #dedede;
+    text-align: center;
+    position: relative;
+
+    figure {
+      margin: 0 auto;
+    }
+
+    h5 {
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: .03em;
+      margin: 15px auto;
+    }
+    p {
+      // padding-bottom: 20px;
+      font-size: 0.8rem;
+    }
+
+    .button {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-radius: 0px 0px 4px 4px;
+      border: 0;
+      border-top: 1px solid #f1f1f1;
+      background: #fbfbfb;
+    }
+  }
+
+  .padder-card {
+    display: none;
+    flex: 0 0 auto;
+    border: 1px solid white;
+    width: 50px;
+    height: 350px;
+  }
+
+}
+
+.MainHero {
+  position: relative;
+
+  h2, p {
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.08);
+  }
+  h2 span {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  #angles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: skewY(-12deg);
+    transform-origin: 0;
+    position: absolute;
+    box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(150deg, #9DC73A 15%, #64C65D 50%, #54AA4E 94%); // green
+
+    // background-color: #08AEEA;
+    // background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+    // red
+    // background-color: #FFE53B;
+    // background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    //
+    // // purple blue
+    // background-color: #21D4FD;
+    // background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  }
+  .animals {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('/assets/images/animals.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+.Mockups {
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  pointer-events: none;
+  left: 50%;
+
+  width: 829px;
+  margin-left: -10px;
+
+  transform: rotate(-12deg);
+  transform-origin: 100% 0;
+
+  #support {
+    position: relative;
+    width: 300px;
+    z-index: 9;
+    margin-left: 45%;
+  }
+}
+
+.AppFeatures {
+
+  .AppFeatureMenu {
+
+    a {
+      font-weight: 600;
+      overflow: hidden;
+      white-space: nowrap;
+      font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      font-size: 13px;
+      height: 35px;
+      line-height: 35px;
+      font-weight: 500;
+      letter-spacing: .03em;
+      padding: 0 14px;
+      color: #6772e5;
+      &:hover {
+        background: none;
+        color: #333;
+      }
+      &.is-active, &:hover .is-active {
+        color: #56b050;
+        box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+        background: #fff;
+        border-radius: 4px;
+      }
+      img {
+        display: inline;
+        height: 25px;
+        width: 25px;
+        margin: 5px 10px 5px -5px;
+        float: left;
+        box-shadow: none !important;
+        fill: #333;
+        stroke:  #333;
+        color:  #333;
+      }
+    }
+  }
+  &.Reader {
+    a.is-active {
+      background: #209cee;
+    }
+  }
+  .AppFeatureTabs {
+    a {
+      font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      font-size: 13px;
+      // height: 35px;
+      line-height: 35px;
+      font-weight: 500;
+    }
+    li.is-active a {
+      font-weight: 700;
+      color: #333;
+      border-bottom-color: #333;
+    }
+  }
+  .tab-content {
+    h5 {
+      color: #55b04f;
+      font-weight: 600;
+    }
+  }
+  &.Reader {
+    .tab-content {
+      h5 {
+        color: #209cee;
+      }
+    }
+  }
+}
+.Bundle {
+  // position: relative;
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   left: 0;
+  //   width: 100%;
+  //   bottom: 0px;
+  //   height: 300px;
+  //   background: #f5f5f5;
+  //   transform: skew(0,-12deg);
+  //   z-index: 0;
+  // }
+  .BundleCard {
+    z-index: 9;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+  }
+}
+.CTA {
+    background: #f6f9fc;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 100%;
+      top: 00px;
+      height: 420px;
+      background: #f6f9fc;
+      // background: #dedede;
+      transform: skew(0, -12deg);
+      transform-origin: top left;
+      z-index: 0;
+    }
+}
+.AppFeatures {
+    background: #f6f9fc;
+}
+.MainFooter {
+  background: #f6f9fc;
+}
+@media screen and (max-width: 768px) {
+
+  .scrolling-wrapper-flexbox {
+    &:after {
+      display: none;
+    }
+    .feature-card {
+      width: 45%;
+      height: 250px;
+    }
+    .padder-card {
+      display: inline-block;
+    }
+  }
+
+  .MainHero {
+    .hero-body {
+      padding-bottom: 140px;
+    }
+  }
+
+  .Mockups {
+    position: relative;
+    width: 120%;
+    left: 0;
+    transform-origin: top;
+    margin-top: -25%;
+    margin-bottom: 30px;
+    #support {
+      display: none;
+    }
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .scrolling-wrapper-flexbox {
+
+    .feature-card {
+      width: 90%;
+      height: 250px;
+    }
+  }
+}
+
+.Writers, .Readers, .Developers {
+  .blurb {
+    padding: 60px 30px 0;
+  }
+}

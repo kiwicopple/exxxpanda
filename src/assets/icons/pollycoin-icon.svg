@@ -1,0 +1,50 @@
+<svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>pollycoin-icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(5176 -642)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -5176 642L -4920 642L -4920 898L -5176 898L -5176 642Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="pollycoin-icon" clip-path="url(#clip-0)">
+<g id="Group 2.1" filter="url(#filter0_d)">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-5125.31 707)" fill="url(#paint0_linear)"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(-5173 740.816)" fill="url(#paint1_linear)"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(-5013.4 716.652)" fill="#FFFFFF"/>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(-4983.74 710.384)" fill="#ECC31C"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-5183" y="697" width="266" height="178" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="0"/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(8.29257e-15 157 -135.428 9.61348e-15 135.428 -9.61348e-15)">
+<stop offset="0" stop-color="#FC5D30"/>
+<stop offset="1" stop-color="#DE491F"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(8.3967e-15 47.3145 -137.129 2.89718e-15 137.129 -2.89718e-15)">
+<stop offset="0" stop-color="#FC5D30"/>
+<stop offset="1" stop-color="#DE491F"/>
+</linearGradient>
+<path id="path0_fill" d="M 78.6287 28.1879C 90.0733 33.1903 98.1269 44.4457 98.1269 57.3686C 98.1269 75.0855 83.5033 89.4675 65.4886 89.4675C 60.1902 89.4675 54.8917 88.2168 50.2291 85.7156L 45.1426 83.4228L -6.46781e-06 157C 126.738 90.0928 129.282 70.2915 133.944 57.994C 134.58 56.3265 135.428 54.4506 135.428 44.4458L 135.428 2.3421C 100.882 -7.66273 84.351 16.9325 78.6287 28.1879Z"/>
+<path id="path1_fill" d="M 122.076 1.66745C 119.321 0.625276 116.354 0 113.174 0C 112.751 0 112.327 0 111.903 0L -6.46781e-06 0L 97.0673 42.5205L 101.518 44.3964C 104.909 46.2723 108.936 47.3145 112.963 47.3145C 126.315 47.3145 137.123 36.6843 137.123 23.553C 137.335 13.7566 130.977 5.21082 122.076 1.66745Z"/>
+<path id="path2_fill" d="M 9.94579 0.193396C 4.01154 -1.05721 -1.07496 3.94522 0.19666 9.78137C 0.832471 12.6994 3.16375 14.9922 6.13088 15.6175C 12.0651 16.8681 17.1516 11.8657 15.88 6.02952C 15.2442 3.31988 12.9129 1.02713 9.94579 0.193396Z"/>
+<path id="path3_fill" d="M 55.7395 -1.27218e-05L 0 -1.27218e-05L 0 16.2579L 55.7395 -1.27218e-05Z"/>
+</defs>
+</svg>
