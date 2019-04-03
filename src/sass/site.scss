@@ -14,6 +14,12 @@ h1, h2, h3, h4, h5, h6 {
 .exxxpanda {
   font-weight: 600;
   color: black;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.pricing {
+  color: black;
+  
 }
 .polly-Header {
   text-transform: uppercase;
@@ -31,8 +37,37 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: .03em;
   box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
   padding: 0 14px;
-  color: #666;
 }
+.polly-button-green {
+  font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  height: 35px;
+  line-height: 35px;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: .03em;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  padding: 0 14px;
+  color: white;
+  background: linear-gradient(150deg, #9DC73A 15%, #64C65D 50%, #54AA4E 94%); // green
+}
+
+.polly-button-green-small {
+  font-family: 'Poppins', BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  height: 35px;
+  line-height: 35px;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: .03em;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  padding: 0 14px;
+  color: white;
+  background: linear-gradient(150deg, #9DC73A 15%, #64C65D 50%, #54AA4E 94%); // green
+}
+
 ::selection { // keep this separate from below
   background: #FF4F19;
   color: #fff;
@@ -82,7 +117,7 @@ main {
     height: 35px;
     line-height: 35px;
     font-weight: 500;
-    color: #666;
+    color: black;
   }
 }
 
@@ -96,7 +131,7 @@ main {
     margin-bottom: 5px;
   }
   .content {
-    color: #333;
+    color: black;
   }
   figure {
     margin: 0 auto;
@@ -114,7 +149,6 @@ main {
 .has-horizontal-scroll {
   position: relative;
   margin: 50px 0;
-
   .level {
     margin-left: 0.75rem;
   }
@@ -137,7 +171,7 @@ main {
     padding: 30px 16px;
     margin-right: 2%;
     border: 1px solid white;
-    width: 23.5%;
+    width: 32%;
     border-radius: 4px;
     display: inline-block;
     border: 1px solid #dedede;
@@ -149,13 +183,19 @@ main {
       margin: 0 auto;
     }
 
-    h5 {
+    h3 {
       font-weight: 700;
       text-transform: uppercase;
-      font-size: 13px;
+      font-size: 20px;
       letter-spacing: .03em;
       margin: 15px auto;
     }
+
+    h4 {
+      font-weight: 300;
+      font-size: 15px;
+    }
+
     p {
       // padding-bottom: 20px;
       font-size: 0.8rem;
@@ -185,10 +225,19 @@ main {
 .MainHero {
   position: relative;
 
-  h2, p {
+  h1 {
     color: #fff;
     text-shadow: 0 1px 3px rgba(0,0,0,.08);
+    font-size: 45px;
   }
+
+  h2 {
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.08);
+    font-weight: 500;
+    font-size: 22px;
+  }
+
   h2 span {
     display: block;
     margin-bottom: 10px;
@@ -263,7 +312,7 @@ main {
       color: #6772e5;
       &:hover {
         background: none;
-        color: #333;
+        color: black;
       }
       &.is-active, &:hover .is-active {
         color: #56b050;
@@ -280,7 +329,7 @@ main {
         box-shadow: none !important;
         fill: #333;
         stroke:  #333;
-        color:  #333;
+        color:  black;
       }
     }
   }
@@ -300,8 +349,8 @@ main {
     }
     li.is-active a {
       font-weight: 700;
-      color: #333;
-      border-bottom-color: #333;
+      color: black;
+      border-bottom-color: black;
     }
   }
   .tab-content {
@@ -348,9 +397,9 @@ main {
       height: 420px;
       background: #f6f9fc;
       // background: #dedede;
-      transform: skew(0, -12deg);
-      transform-origin: top left;
-      z-index: 0;
+      // transform: skew(0, -12deg);
+      // transform-origin: top left;
+      // z-index: 0;
     }
 }
 .AppFeatures {
